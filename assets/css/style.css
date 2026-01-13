@@ -167,7 +167,7 @@ p {
     pointer-events: none;
 }
 
-.bg-dollars {
+.bg {
     position: fixed;
     inset: 0;
     overflow: hidden;
@@ -176,7 +176,7 @@ p {
     perspective: 800px;
 }
 
-.bg-dollars span {
+.bg span {
     position: absolute;
     font-size: clamp(30px, 6vw, 120px);
     color: #fff;

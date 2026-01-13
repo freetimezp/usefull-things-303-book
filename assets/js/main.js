@@ -32,8 +32,8 @@ tl.to(".front", {
     );
 
 window.addEventListener("mousemove", (e) => {
-    const x = (e.clientX / window.innerWidth - 0.5) * 20;
-    const y = (e.clientY / window.innerHeight - 0.5) * -20;
+    const x = (e.clientX / window.innerWidth - 0.5) * 40;
+    const y = (e.clientY / window.innerHeight - 0.5) * -40;
 
     gsap.to(book, {
         rotationY: x,
@@ -48,7 +48,7 @@ book.addEventListener("click", () => {
     open = !open;
 });
 
-const bg = document.querySelector(".bg-dollars");
+const bg = document.querySelector(".bg");
 const COUNT = 40;
 
 for (let i = 0; i < COUNT; i++) {
