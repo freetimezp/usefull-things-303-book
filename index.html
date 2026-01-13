@@ -2,42 +2,54 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>3D Book</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>Project</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
     </head>
-
     <body>
-        <div class="center">
-            <div class="page">
-                <h1>Our Story</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nam quod vero molestias maxime
-                    cupiditate possimus maiores, consequuntur enim suscipit totam. Perferendis eum aut facere nesciunt
-                    ullam rem magnam perspiciatis dolor ducimus voluptates fuga minus tempora aliquid maxime iure
-                    doloribus earum, vel iste reprehenderit officiis laboriosam dolores nulla? Nesciunt quo velit quis
-                    quae repudiandae reprehende quos maxime quisquam nobis est molestias. Voluptatum, ipsam em?
-                    Deleniti, ex molestiae perspiciatis consequuntur, assumenda, consectetur eligendi vitae dicta
-                    placeat ipsa laboriosam delectus. Quasi harum voluptatum ad, rem iste dignissimos cumque esse,
-                    doloremque vero ratione, dolor consequatur eius aliquam vel nisi quo placeat sequi. Tenetur quaerat
-                    ut quos reiciendis debitis vitae dolorem, perspiciatis tempore quae.
-                </p>
+        <div class="bg-dollars"></div>
 
-                <br />
+        <div class="scene">
+            <div class="book-container" id="bookContainer">
+                <!-- book -->
+                <div class="book" id="book">
+                    <div class="spine"></div>
 
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus impedit voluptates sapiente unde
-                    labore cum eos, praesentium ea ipsa quis dolor illo asperiores beatae repudiandae omnis, voluptatem
-                    odio totam, dignissimos alias quam hic iure dolores? Dicta totam repellat iusto optio repudiandae,
-                    perspiciatis atendis offic commodi. Libero dolorum distinctio eius quasi, est excepturi veritatis
-                    suscipit nostrum reprehenderit deleniti voluptas in atque maiores totam placeat, dolore velit, at
-                    dolorem tempora alias sapiente enim consequatur nihil. Debitis, ad quo doloremque suscipit inventore
-                    ducimus eligendi corrupti.
-                </p>
+                    <div class="cover back"></div>
+
+                    <div class="pages">
+                        <div class="page"></div>
+                        <div class="page"></div>
+                        <div class="page"></div>
+                    </div>
+
+                    <div class="spread">
+                        <div class="left">
+                            <h2>Contact</h2>
+                            <p>hello@studio.com</p>
+                            <p>+48 000 000 000</p>
+                        </div>
+                        <div class="right">
+                            <h2>Social</h2>
+                            <div class="socials">
+                                <span>EN</span>
+                                <span>UA</span>
+                                <span>PL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover front">
+                        <h1>creative card</h1>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <script src="./assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
