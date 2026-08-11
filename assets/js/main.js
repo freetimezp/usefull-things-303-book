@@ -18,7 +18,7 @@ tl.to(".front", {
             duration: 0.9,
             ease: "power3.in",
         },
-        0
+        0,
     )
     .to(
         ".book",
@@ -28,7 +28,7 @@ tl.to(".front", {
             duration: 1.2,
             ease: "power3.out",
         },
-        0
+        0,
     );
 
 window.addEventListener("mousemove", (e) => {
@@ -75,6 +75,6 @@ for (let i = 0; i < COUNT; i++) {
             repeat: -1,
             ease: "none",
             delay: Math.random() * 10,
-        }
+        },
     );
 }
